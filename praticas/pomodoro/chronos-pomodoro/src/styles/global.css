@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--gray-900);
+  color: var(--text-default);
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+body,
+input,
+button,
+textarea {
+  font-family: sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  gap: 2.4rem;
+}
+
+.formRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  gap: 2.4rem;
+}
